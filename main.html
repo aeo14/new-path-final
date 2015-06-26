@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="tablePosition">
+            <div class="border">
+                <table id="myTable" cellspacing="1" onmouseover="getButtonCoordinates(event)" onmouseout="hideButton(event)">
+                    <tr><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="buttonAddRow">
+                <button class="button" onclick="addrow()">+</button>
+            </div>
+            <div class="buttonAddCell">
+                <button class="button" onclick="addcol()">+</button>
+            </div>
+            <div class="buttonDelRow">
+                <button class="button" id="=delrow" onclick="deleteRow(this)" onmouseout="hide(event)">-</button>
+            </div>
+            <div class="buttonDelCell">
+                <button class="button" onclick="deleteCell(this)" onmouseout="hide(event)">-</button>
+            </div>
+        </div>
+    </body>
+</html>

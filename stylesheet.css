@@ -1,0 +1,22 @@
+    td {
+         background: deepskyblue; width: 30px;
+         padding: 5px; height: 30px;
+     }
+    .border {
+        outline: solid 1px deepskyblue;
+        outline-offset: -4px;
+        /*position: absolute; left: 50px; top: 50px;*/float: left;
+    }
+    button {
+        border: 1px; background: orange;
+        height: 40px; width: 40px;
+         /*-webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 5px;*/
+    }
+    button:hover{background-color: goldenrod;}
+    .buttonAddRow{/*position: absolute; left: 220px; top: 50px; */float: left}
+    .buttonAddCell{/*position: absolute; left: 50px; top: 220px*/ clear: both}
+    .buttonDelRow{position: absolute; left: 109px; top: 60px; visibility: hidden}
+    .buttonDelCell{position: absolute; left: 68px; top: 101px; visibility: hidden}
+    .tablePosition {margin: 100px}
